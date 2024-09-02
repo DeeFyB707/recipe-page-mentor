@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 90px 0 0 0;
+    background-color: #F0E5D8;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(../fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+.main {
+    width: 45%;
+    padding: 42px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.head {
+    font-family: young-serif;
+    font-size: 52px;
+    font-weight: 500;
+    color: #363533;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.paragraph-1 {
+    font-family: outfit;
+    font-size: 21px;
+    font-weight: 400;
+    color: #73706E;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    background-color: #FEF7FC;
+    border-radius: 11px;
+    margin-top: 29px;
+}
+
+h6 {
+    font-family: outfit;
+    font-size: 22px;
+    font-weight: 600;
+    color: #662F44;
+    margin: 0;
+}
+
+.first-list {
+    margin-top: 20px;
+}
+
+.first-list li {
+    font-family: outfit;
+    font-size: 21px;
+    color: #484240;
+}
