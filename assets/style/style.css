@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    padding: 90px 0 0 0;
+    padding: 90px 0 90px 0;
     background-color: #F0E5D8;
     display: flex;
     justify-content: center;
@@ -27,7 +27,11 @@ body {
     border-radius: 20px;
 }
 
-img {
+.mobile-img {
+    display: none;
+}
+
+.desc-img {
     width: 100%;
     border-radius: 15px;
 }
@@ -74,4 +78,69 @@ h6 {
     font-family: outfit;
     font-size: 21px;
     color: #484240;
+    
+}
+
+.first-list li::marker {
+    color: #662F44;
+}
+
+h1 {
+    font-family: young-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #76493A;
+}
+
+.lists li {
+    font-family: outfit;
+    font-size: 1.313rem;
+    color: #535250;
+}
+
+.lists li::marker {
+    color: #76493A;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 0.93rem;
+    color: #464542;
+    border-bottom: 1px solid #00000031;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 27px;
+}
+
+.last-row td {
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        display: block;
+    }
+    .main {
+        width: 100%;
+        border-radius: 0;
+    }
+    .desc-img {
+        display: none;
+    }
+    .mobile-img {
+        display: block;
+        width: 100%;
+    }
+    .head {
+        font-size: 34px;
+    }
 }
