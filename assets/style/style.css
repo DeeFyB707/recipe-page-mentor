@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    padding: 90px 0 90px 0;
+    padding: 110px 0 90px 0;
     background-color: #F0E5D8;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
 
 .head {
     font-family: young-serif;
-    font-size: 52px;
+    font-size: 44px;
     font-weight: 500;
     color: #363533;
     margin: 0;
@@ -47,7 +47,7 @@ body {
 
 .paragraph-1 {
     font-family: outfit;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
     color: #73706E;
     margin: 0;
@@ -76,7 +76,7 @@ h6 {
 
 .first-list li {
     font-family: outfit;
-    font-size: 21px;
+    font-size: 17px;
     color: #484240;
     
 }
@@ -87,14 +87,14 @@ h6 {
 
 h1 {
     font-family: young-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #76493A;
 }
 
 .lists li {
     font-family: outfit;
-    font-size: 1.313rem;
+    font-size: 1.05rem;
     color: #535250;
 }
 
